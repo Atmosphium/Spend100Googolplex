@@ -1,0 +1,214 @@
+@import url('./Fonts.css');
+
+@keyframes facebookColorChange {
+    0% {
+        color: #677B8C
+    }
+
+    5% {
+        color: #677B8C
+    }
+
+    10% {
+        color: #1778F2
+    }
+
+    30% {
+        color: #1778F2
+    }
+
+    40% {
+        background: linear-gradient(45deg, #FDA948 5%, #F66748 14%, #EC3653 29%, #C13A9C 93%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    60% {
+        background: linear-gradient(45deg, #FDA948 5%, #F66748 14%, #EC3653 29%, #C13A9C 93%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    70% {
+        background: none;
+        color: #25D366
+    }
+
+    90% {
+        color: #25D366
+    }
+
+    95% {
+        color: #677B8C
+    }
+
+    100% {
+        color: #677B8C
+    }
+}
+
+:root {
+    --black: #0f0f0f;
+    --white: #f0f0f0;
+    --red: #f00f0f;
+    --blue: #0f0ff0;
+}
+
+* {
+    transition: 0.5s;
+}
+
+html {
+    background: var(--white);
+}
+
+body {
+    margin: 0 0 1rem 0
+}
+
+button {
+    background: var(--black);
+    color: var(--white);
+    font: 300 1.2rem 'Oxygen', sans-serif;
+    border: 0.1rem solid var(--black);
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--black)
+}
+
+button:active {
+    position: relative;
+    top: 0.3rem;
+    left: 0.2rem
+}
+
+h1 {
+    position: fixed;
+    top: -7.5%;
+    background: #0ff020;
+    color: var(--black);
+    height: 13.5%;
+    width: 100%;
+    font: 300 4rem 'Eveleth', sans-serif;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.25rem 0.1rem #444444;
+}
+
+main {
+    margin-top: 8%;
+    text-align: center;
+}
+
+main div.Item {
+    display: inline-block;
+    margin: 2.5% 3.5%;
+    padding: 1%;
+    vertical-align: top;
+    height: 52.5%;
+    width: 15%;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.375rem 0.05rem #0f0f0f80
+}
+
+main div.Item img {
+    height: 8rem;
+    max-width: 12rem
+}
+
+main div.Item h2 {
+    color: var(--red);
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif
+}
+
+main div.Item h5 {
+    color: var(--blue);
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif
+}
+
+main div.Item h2#Microsoft {
+    color: #747474;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif
+}
+
+main div.Item h2#Google {
+    font-weight: 700;
+    font-family: 'Product Sans', sans-serif
+}
+
+main div.Item h2#Google span#G, main div.Item h2#Google span#g {
+    color: #4285F4
+}
+
+main div.Item h2#Google span#o1, main div.Item h2#Google span#e {
+    color: #EA4335
+}
+
+main div.Item h2#Google span#o2 {
+    color: #FBBC05
+}
+
+main div.Item h2#Google span#l {
+    color: #34A853
+}
+
+main div.Item h2#Facebook {
+    font-weight: 300;
+    font-family: 'Optimistic Text', sans-serif;
+    animation: facebookColorChange 8s linear infinite;
+}
+
+main div#Spent {
+    position: fixed;
+    padding: 0% 1% 1.5% 0%;
+    top: 77.5%;
+    right: 0%;
+    background: linear-gradient(90deg, #7de935, #22ec58);
+    height: 12.5%;
+    width: 25%;
+    text-align: right;
+    border: 0.25rem solid var(--black);
+    border-right: none;
+    border-top-left-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem
+}
+
+main div#Spent h3 {
+    font-weight: 300;
+    font-family: 'Eveleth', sans-serif
+}
+
+main div#Spent h4 {
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif
+}
+
+button#Share {
+    position: relative;
+    left: calc(50% - 8rem);
+    height: 4rem;
+    width: 16rem;
+    border-radius: 16rem
+}
+
+button#Share span {
+    color: #1DA1F2
+}
+
+footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif
+}
+
+footer a {
+    background: linear-gradient(to bottom, #9020e0, #b024e0);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}

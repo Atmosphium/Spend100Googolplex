@@ -1,0 +1,35 @@
+@font-face {
+    font-weight: 300;
+    font-family: 'Eveleth';
+    src: url('./Fonts/Eveleth 300.otf') format('opentype');
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: 'Inter';
+    src: url('./Fonts/Inter 900.ttf');
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: 'Optimistic Text';
+    src: url('./Fonts/Optimistic Text 300.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: 'Oxygen';
+    src: url('./Fonts/Oxygen.ttf');
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Product Sans';
+    src: url('./Fonts/Product Sans 700.ttf');
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    src: url('./Fonts/Segoe UI 700.ttf');
+}
